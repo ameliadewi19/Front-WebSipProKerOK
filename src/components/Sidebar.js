@@ -28,27 +28,27 @@ const Sidebar = () => {
                         </a>
                     </li>
 
-                    <li className={`sidebar-item ${location.pathname === '/dosen' ? 'active' : ''}`}>
-                        <a className="sidebar-link" href="/dosen">
-                            <i className="align-middle" data-feather="user"></i> <span className="align-middle">Dosen</span>
+                    <li className={`sidebar-item ${location.pathname === '/kak' ? 'active' : ''}`}>
+                        <a className="sidebar-link" href="/kak">
+                            <i className="align-middle" data-feather="user"></i> <span className="align-middle">KAK</span>
                         </a>
                     </li>
 
-                    <li className={`sidebar-item ${location.pathname === '/jadwal-ujian' ? 'active' : ''}`}>
-                        <a className="sidebar-link" href="/jadwal-ujian">
-                            <i className="align-middle" data-feather="calendar"></i> <span className="align-middle">Jadwal Ujian</span>
+                    <li className={`sidebar-item ${location.pathname === '/program-kerja' ? 'active' : ''}`}>
+                        <a className="sidebar-link" href="/program-kerja">
+                            <i className="align-middle" data-feather="calendar"></i> <span className="align-middle">Program Kerja</span>
                         </a>
                     </li>
 
-                    <li className={`sidebar-item ${location.pathname === '/confirmation' ? 'active' : ''}`}>
-                        <a className="sidebar-link" href="/confirmation">
-                            <i className="align-middle" data-feather="message-circle"></i> <span className="align-middle">Confirmation Messages</span>
+                    <li className={`sidebar-item ${location.pathname === '/pergerakan' ? 'active' : ''}`}>
+                        <a className="sidebar-link" href="/pergerakan">
+                            <i className="align-middle" data-feather="message-circle"></i> <span className="align-middle">Pergerakan</span>
                         </a>
                     </li>
 
-                    <li className={`sidebar-item ${location.pathname === '/reminder' ? 'active' : ''}`}>
-                        <a className="sidebar-link" href="/reminder">
-                            <i className="align-middle" data-feather="bell"></i> <span className="align-middle">Reminder Messages</span>
+                    <li className={`sidebar-item ${location.pathname === '/peminjaman-sarpras' ? 'active' : ''}`}>
+                        <a className="sidebar-link" href="/peminjaman-sarpras">
+                            <i className="align-middle" data-feather="bell"></i> <span className="align-middle">Peminjaman SarPras</span>
                         </a>
                     </li>
                 </ul>

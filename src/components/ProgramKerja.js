@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate, useLocation } from 'react-router-dom';
 import feather from 'feather-icons';
 
-const JadwalUjian = () => {
+const ProgramKerja = () => {
     const location = useLocation();
     
     useEffect(() => {
@@ -22,4 +22,4 @@ const JadwalUjian = () => {
     );
 };
 
-export default JadwalUjian;
+export default ProgramKerja;

@@ -6,11 +6,11 @@ import Navbar from './components/Navbar.js';
 import Footer from './components/Footer.js';
 
 import Login from './components/Login.js';
-import Confirmation from './components/Confirmation';
+import Pergerakan from './components/Pergerakan.js';
 import Dashboard from './components/Dashboard.js';
-import Dosen from './components/Dosen.js';
-import JadwalUjian from './components/JadwalUjian.js';
-import Reminder from './components/Reminder.js';
+import KAK from './components/KAK.js';
+import ProgramKerja from './components/ProgramKerja.js';
+import PeminjamanSarpras from './components/PeminjamanSarpras.js';
 
 function App() {
   return (
@@ -31,42 +31,42 @@ function App() {
             </div>
           </div>
         }/>
-        <Route path="/dosen" element={
+        <Route path="/kak" element={
           <div className="wrapper">
             <Sidebar />
             <div className="main">
               <Navbar />
-              <Dosen />
+              <KAK />
               <Footer />
             </div>
           </div>
         }/>
-        <Route path="/jadwal-ujian" element={
+        <Route path="/program-kerja" element={
           <div className="wrapper">
             <Sidebar />
             <div className="main">
               <Navbar />
-              <JadwalUjian />
+              <ProgramKerja />
               <Footer />
             </div>
           </div>
         }/>
-        <Route path="/confirmation" element={
+        <Route path="/pergerakan" element={
           <div className="wrapper">
             <Sidebar />
             <div className="main">
               <Navbar />
-              <Confirmation />
+              <Pergerakan />
               <Footer />
             </div>
           </div>
         }/>
-        <Route path="/reminder" element={
+        <Route path="/peminjaman-sarpras" element={
           <div className="wrapper">
             <Sidebar />
             <div className="main">
               <Navbar />
-              <Reminder />
+              <PeminjamanSarpras />
               <Footer />
             </div>
           </div>

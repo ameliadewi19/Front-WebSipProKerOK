@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import feather from 'feather-icons';
 
 // Using Arrow Function
-const Dosen = () => {
+const KAK = () => {
     const history = useNavigate();
 
     useEffect(() => {
@@ -67,4 +67,4 @@ const Dosen = () => {
     );
 };
 
-export default Dosen;
+export default KAK;
